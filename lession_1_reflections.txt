@@ -1,0 +1,23 @@
+1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff command is useful to find bugs as we find differences between two files, and may be previous file would have been working but the new one after changes is not working so we can list out changes using diff command and can figure what is causing the project not to work!
+
+2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+if i will have access to version history of a file than if i had made some changes which have made my program to crash than i can revert to latest previous version without lossing many other working changes
+
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+when commiting manuaaly onr big decision is when to commit , may be you can forget commit in between two different logical changes in the project, and may be it will result into small commits(more tedious job)
+while automatic commiting(like history created in google docs and dropbox) may result into unnecessary version creation
+
+4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think that saving multiplefiles in a single commit is offered by git because incoding practises there are chances than 1 file is related to other file in some way changing one file will than may stop working of 2nd file so we can add changes simultaneously to both files that's why this feature is offered by git.
+
+5.How can you use the commands git log and git diff to view the history of files?
+we can use git log to see  the history of file when and why a commit is added and who added it similarly we can use git diff to compare to git commits we recieved from git log 
+
+6.How might using version control make you more confident to make changes that could break something?
+in one line i can say we have a backup of prvs version so why to wprry before commiting any changes?
+
+7.
