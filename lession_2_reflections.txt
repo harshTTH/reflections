@@ -8,14 +8,19 @@ staging area helps to combine two logically equivalent file as a one single file
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+staging area is like a trial commiting area where we can keep small changes in a file and then after creating one logical change we cancombine several changes to commit one logical change only.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are helpful when we have to create somrthing different , a different falvour of our application which might be developed as something else later on, it's like siblings of a parent version
 
 How do the diagrams help you visualize the branch structure?
+this isgust like the chapter graphs and trees as shown any of the commit may be lost, reminds me of the connectedness of a directed tree, how head is changed, new branches are created from there, and what is the reachbility all can be visualized very easily with diagrams.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging actually follows a very problematic solution , as the way it selects changes to be included on the merged commit may poduce maby bugs. because after mereging we know that we can track commit log of both the branches
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+manually merging is good as it will prevent bugs, may be automatic merging may not create any conflict but in the merged commit there might be chances of bugs as other code lines from other branches will also be included
