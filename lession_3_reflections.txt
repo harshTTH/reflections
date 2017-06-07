@@ -8,3 +8,12 @@ Because we know better when to pull , as we as a developer know better when it w
 3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 fork is just clonig someone's repository to our's but not locally bit in out github page. clones means to clone simply the repository locally and branches are somewhat i ahve described earlier which are used to add a new feature like a beta version of your final code
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+
+having the latest copy will tell us what are the changes we have made locally which are not present in github and hat will be the merge conflicts, fast forward merge didn't happened in the previous worked example as twe are merging master-which contained a new ingredient, and origin-master which contained the no-cumin sedd change both of the commits were like changes diverged from the last known common commit present in noth locally and github which was adding chili-recipe.txt
+
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+first of all i liked that feature to request other members to look for your changes and than request them to merge it with final master branch this conversation and transfer of files throught repository would be the most difficult part of collaborating without gi or github
+
